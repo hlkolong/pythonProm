@@ -8,7 +8,7 @@ config.read("../labiconfig.ini", "utf-8");
 
 firstProm = PromptTemplate.from_template(
     "我的邻居姓：{lastname}，生了一个{gender}，请帮忙起两个名字，并封装成json返回给我，"
-    "key是name，value就是起的名字"
+    "key是 name，value就是起的名字"
 )
 
 secondProm = PromptTemplate.from_template(
